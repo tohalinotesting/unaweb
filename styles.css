@@ -1,0 +1,130 @@
+.navbar {
+    background: #121212 !important;
+    padding: 0px 10px 0px 20px;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar-nav {
+    margin-right: 5px;;
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-right: 5px;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: white;
+    background: #c20d19;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    background: white;
+    border-radius: 8px;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+}
+  
+#carousel {
+    position: relative;
+}
+  
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+.brumier {
+    font-family: serif;
+}
+
+.btn-brumier {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.btn-brumier:hover {
+    background: #c20d19;
+    color: white;
+    border: 1px solid #c20d19;
+}
+
+.badge__brumier1{
+    background: #121212;
+    color: white;
+}
+
+.badge__brumier2{
+    background: #121212;
+    color: white;
+}
+
+.btn-card__brummier {
+    background: transparent;
+
+}
+
+.btn-card__brumier:hover {
+    text-decoration: none;
+}
+
+#trayectoria {
+    background: #121212;
+    color: white;
+}
+
+#trayectoria img {
+    max-width: 100%;
+}
+
+.text_trayectoria {
+    padding: 0px 15px 0px 15px;
+}
+
+#footer {
+    background: linear-gradient(#121212, #c20d19);
+    color: white;
+    align-items: center;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer p {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
